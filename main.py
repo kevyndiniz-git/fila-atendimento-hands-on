@@ -1,13 +1,7 @@
 from classica import Fila
 from circular import FilaCircular
 from prioridade import FilaPrioridade
-from desafio import (
-    gerar_clientes,
-    mostrar_clientes,
-    testar_fila_classica,
-    testar_fila_circular,
-    testar_fila_prioridade
-)
+from desafio import executar_desafio
 
 
 def fila_classica():
@@ -123,18 +117,6 @@ def fila_prioridade():
         )
 
 
-def desafio_final():
-    print("\n    DESAFIO FINAL    ")
-
-    clientes = gerar_clientes(20)
-
-    mostrar_clientes(clientes)
-
-    testar_fila_classica(clientes)
-    testar_fila_circular(clientes)
-    testar_fila_prioridade(clientes)
-
-
 def menu():
     while True:
         print("\n                                       ")
@@ -159,7 +141,7 @@ def menu():
             fila_prioridade()
 
         elif opcao == "4":
-            desafio_final()
+            executar_desafio()
 
         elif opcao == "0":
             print("\nSistema encerrado.")
