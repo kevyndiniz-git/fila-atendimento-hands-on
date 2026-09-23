@@ -2,7 +2,7 @@
 
 Projeto desenvolvido em Python para a disciplina de **Estrutura de Dados II**, com o objetivo de aplicar e comparar diferentes estruturas de filas em um sistema de atendimento.
 
-## Participante
+## Criador
 
 **Kevyn Cardoso**
 
